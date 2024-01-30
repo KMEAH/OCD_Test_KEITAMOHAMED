@@ -1,0 +1,5 @@
+def calc(array,n1,n2):
+    return sum(array[n1:n2+1])
+
+reponse=calc(range(100),10,20)
+print(reponse)
